@@ -1,3 +1,12 @@
+'''
+******************************************************************************************************************************
+* Solução do problema da Divisão da Nlogônia (Maratona de Programação SBC 2008) em Python.                                   *
+* Link para o enunciado: https://www.beecrowd.com.br/judge/en/problems/view/1091                                             *
+*                                                                                                                            *
+* Myke Leony dos Santos Amorim. 12 de janeiro de 2021.                                                                       *                                                                              *
+******************************************************************************************************************************
+'''
+
 regioes = list()
 
 while True:
