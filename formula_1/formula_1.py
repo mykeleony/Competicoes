@@ -16,8 +16,6 @@ while True:
         break
 
     resultados = list()
-    scores = list()
-    podio = list()
 
     for i in range(int(qtd_corridas)):
         resultados.append(input().split())
@@ -25,35 +23,37 @@ while True:
     qtd_scores = int(input())
 
     for i in range(qtd_scores):
-        scores.append(input().split())
-        scores[i].pop(0)    # O primeiro número informa a última colocação a receber pontos.
-        scores[i] = [int(num) for num in scores[i]]
+        score = [int(num) for num in input().split()]
+        podio = dict()
 
-        podio.append({k: 0 for k in range(1, int(qtd_pilotos)+1)})
+        for k, corrida in enumerate(resultados):
+            for j, pos in enumerate(corrida):
+                pos = int(pos)
 
-        for corrida in resultados:
-            for j, piloto in enumerate(corrida):
-                try:
-                    podio[i][j+1] += scores[i][int(piloto)-1]
+                if pos < len(score):
+                    if k == 0:
+                        podio[j+1] = score[pos]
 
-                except Exception:
-                    continue    # A colocação do piloto não adiciona pontos no torneio.
+                    else:
+                        podio[j+1] += score[pos]
 
-    ranks.append(podio)
+                elif k == 0:
+                    podio[j+1] = 0
 
-for rank in ranks:
-    for pilotos in rank:
-        maior_pont = -1
-        campeoes = list()
+        ranks.append(podio)
 
-        for cod, score in pilotos.items():
-            if score > maior_pont:
-                maior_pont = score
-                campeoes = [cod]
+for pilotos in ranks:
+    maior_pont = -1
+    campeoes = list()
 
-            elif score == maior_pont:
-                campeoes.append(cod)
+    for cod, score in pilotos.items():
+        if score > maior_pont:
+            maior_pont = score
+            campeoes = [cod]
 
-        print(campeoes[0], end='')
-        [print(f' {campeao}', end='') for campeao in campeoes[1:]]
-        print('')
+        elif score == maior_pont:
+            campeoes.append(cod)
+
+    print(campeoes[0], end='')
+    [print(f' {campeao}', end='') for campeao in campeoes[1:]]
+    print('')
