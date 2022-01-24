@@ -1,5 +1,5 @@
 ## Fuga do Cavalo
-Seu amigo Peter está aprendendo xadrez. Porém, ele ainda é amador e não tem convicção suficiente para fazer movimentos seguros com o cavalo. Por isso, Peter pediu-lhe para fazer um programa que calculasse, em um lance, os distintos movimentos possíveis que o cavalo pode realizar sem se colocar sob o ataque de algum dos 8 peões inimigos. Os movimentos do cavalo e do peão estão de acordo com as regras do xadrez, o que significa que o cavalo deve se mover em L e o peão deve se mover uma casa em qualquer direção, sem voltar atrás. Veja o exemplo a seguir:
+Seu amigo Peter está aprendendo xadrez. Porém, ele ainda é amador e não tem convicção suficiente para fazer movimentos seguros com o cavalo. Por isso, Peter pediu-lhe para fazer um programa que calculasse, em um lance, os distintos movimentos possíveis que o cavalo pode realizar sem se colocar sob o ataque de algum dos 8 peões inimigos. Os movimentos do cavalo e do peão estão de acordo com as regras do xadrez, o que significa que o cavalo deve se mover em L e o peão deve se mover para a frente e capturar nas diagonais, sem voltar atrás. Veja o exemplo a seguir:
 
 <br>
 <p align="center">
