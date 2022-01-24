@@ -3,7 +3,7 @@
 * Solução do problema da Formula 1 (Maratona de Programação SBC 2010) em Python.    *
 * Link para o enunciado: https://www.beecrowd.com.br/judge/en/problems/view/1125    *
 *                                                                                   *
-* Myke Leony dos Santos Amorim. 20 de janeiro de 2021.                              *                                                                              *
+* Myke Leony dos Santos Amorim. 20 de janeiro de 2021.                              *
 *************************************************************************************
 """
 
@@ -36,25 +36,24 @@ while True:
                 try:
                     podio[i][j+1] += scores[i][int(piloto)-1]
 
-                except ValueError:
-                    pass    # A colocação do piloto não adiciona pontos no torneio.
+                except Exception:
+                    continue    # A colocação do piloto não adiciona pontos no torneio.
 
     ranks.append(podio)
 
 for rank in ranks:
     for pilotos in rank:
-        maior_pont = max(pilotos, key=pilotos.get)
-
+        maior_pont = -1
         campeoes = list()
 
         for cod, score in pilotos.items():
-            if score == pilotos[maior_pont]:
+            if score > maior_pont:
+                maior_pont = score
+                campeoes = [cod]
+
+            elif score == maior_pont:
                 campeoes.append(cod)
 
-        if len(campeoes) > 1:    # Em caso de empate, há mais de um campeão mundial.
-            print(campeoes[0], end='')
-            [print(f' {campeao}', end='') for campeao in campeoes[1:]]
-            print('')
-
-        else:
-            print(maior_pont)
+        print(campeoes[0], end='')
+        [print(f' {campeao}', end='') for campeao in campeoes[1:]]
+        print('')
