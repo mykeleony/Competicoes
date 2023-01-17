@@ -1,9 +1,14 @@
-package flavious_josephuis_legend;
+package flavious_josephus_legend;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+* Solução em Java para o problema: https://www.beecrowd.com.br/judge/pt/problems/view/1030
+*
+* por Myke Amorim
+* */
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -22,6 +27,7 @@ public class Main {
 
             int atual = 0;
 
+            // Remove até sobrar 1 elemento no círculo
             while(pessoas.size() > 1) {
                 atual = (atual + distancia - 1) % pessoas.size();
 

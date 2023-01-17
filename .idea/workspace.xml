@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="230a1416-870b-4b0a-aee4-b4c6e6c32154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formula_1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula_1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formula_1/formula_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/formula_1/formula_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuga_do_cavalo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fuga_do_cavalo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuga_do_cavalo/fuga_do_cavalo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fuga_do_cavalo/fuga_do_cavalo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leitor_optico/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leitor_optico/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leitor_optico/leitor_optico.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leitor_optico/leitor_optico.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop_musical/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loop_musical/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loop_musical/loop_musical.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/loop_musical/loop_musical.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlogonia/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nlogonia/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nlogonia/nlogonia.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nlogonia/nlogonia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flavious_josephus_legend/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flavious_josephus_legend/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,36 +27,38 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KJIstsVcIpsn4j2hwTck1p3lw1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\015234631\IdeaProjects\challenges\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.numeros_impares.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flavious_josephuis_legend.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Exmaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flavious_josephuis_legend.Exmaple" />
       <module name="challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="flavious_josephuis_legend.*" />
+          <option name="PATTERN" value="flavious_josephus_legend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,19 +66,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bla" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bla" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="robo_colecionador.Main" />
       <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="robo_colecionador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numeros_impares.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numeros_impares.Main" />
+    <configuration name="MainRefatorado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="copied_cirise.MainRefatorado" />
       <module name="challenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numeros_impares.*" />
+          <option name="PATTERN" value="copied_cirise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crise_de_energia.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="crise_de_energia.Main" />
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crise_de_energia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="duracao_jogo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="duracao_jogo.Main" />
+      <module name="challenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="duracao_jogo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,9 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.numeros_impares.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.bla" />
+        <item itemvalue="Application.crise_de_energia.Main" />
+        <item itemvalue="Application.duracao_jogo.Main" />
+        <item itemvalue="Application.MainRefatorado" />
+        <item itemvalue="Application.flavious_josephuis_legend.Exmaple" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +137,9 @@
       <option name="presentableId" value="Default" />
       <updated>1673686469631</updated>
       <workItem from="1673686472017" duration="5839000" />
+      <workItem from="1673799539131" duration="2036000" />
+      <workItem from="1673882375424" duration="11134000" />
+      <workItem from="1673966367521" duration="10885000" />
     </task>
     <servers />
   </component>
