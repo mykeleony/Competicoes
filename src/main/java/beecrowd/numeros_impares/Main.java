@@ -1,4 +1,4 @@
-package numeros_impares;
+package beecrowd.numeros_impares;
 
 import java.util.Scanner;
 

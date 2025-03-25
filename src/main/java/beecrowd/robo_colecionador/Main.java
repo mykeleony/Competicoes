@@ -1,4 +1,4 @@
-package robo_colecionador;
+package beecrowd.robo_colecionador;
 
 import java.util.ArrayList;
 import java.util.List;

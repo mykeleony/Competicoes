@@ -1,4 +1,4 @@
-package identificando_o_cha;
+package beecrowd.identificando_o_cha;
 
 import java.util.Scanner;
 
@@ -26,7 +26,7 @@ public class Main {
         int qtdPalpites = 5;
         int[] palpites = new int[qtdPalpites];
 
-        // Preenche
+        // Preenche vetor de palpites
         for (int i = 0; i < qtdPalpites; i++) {
             palpites[i] = scanner.nextInt();
         }

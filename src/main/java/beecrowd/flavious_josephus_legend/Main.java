@@ -1,4 +1,4 @@
-package flavious_josephus_legend;
+package beecrowd.flavious_josephus_legend;
 
 import java.util.ArrayList;
 import java.util.List;

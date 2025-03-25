@@ -1,4 +1,4 @@
-package crise_de_energia;
+package beecrowd.crise_de_energia;
 
 import java.util.ArrayList;
 import java.util.List;

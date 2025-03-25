@@ -8,6 +8,9 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+/.idea/git_toolbox_prj.xml
+/.idea/sonarlint/*
+*.idea
 *.iws
 *.iml
 *.ipr

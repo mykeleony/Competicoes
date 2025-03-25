@@ -1,4 +1,4 @@
-package duracao_jogo;
+package beecrowd.duracao_jogo;
 
 import java.util.ArrayList;
 import java.util.List;
