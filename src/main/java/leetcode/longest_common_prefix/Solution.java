@@ -1,5 +1,6 @@
 package leetcode.longest_common_prefix;
 
+// Solução do problema: https://leetcode.com/problems/longest-common-prefix
 public class Solution {
     public static void main(String[] args) {
         System.out.println("Must be unique: " + longestCommonPrefix(new String[]{"unique"}));

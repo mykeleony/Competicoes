@@ -1,5 +1,7 @@
 package leetcode.index_of_first_ocurrence;
 
+
+// Solução do problema: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string
 public class Solution {
     public static void main(String[] args) {
         System.out.println("h: mississippi, n: issip: " + strStr("mississippi", "issip"));
