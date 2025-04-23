@@ -35,10 +35,13 @@ public class Solution {
         int occurrences = 0;
 
         for (int i = 1; i <= n; i++) {
-            int sum = sumDigits(i);
-            counts[sum]++;
+            int sum = 0;
 
-            if (counts[sum] > largestGroupSize) {
+            for (int num = i; num > 0; num /= 10) {
+                sum += num % 10;
+            }
+
+            if (++counts[sum] > largestGroupSize) {
                 largestGroupSize = counts[sum];
                 occurrences = 1;
             } else if (counts[sum] == largestGroupSize) {
@@ -62,21 +65,6 @@ public class Solution {
             n /= 10;
         }
         return maxSum;
-    }
-
-    /**
-     * Calculates the sum of digits of a number
-     *
-     * @param num the number to process
-     * @return the sum of its digits
-     */
-    private static int sumDigits(int num) {
-        int sum = 0;
-        while (num > 0) {
-            sum += num % 10;
-            num /= 10;
-        }
-        return sum;
     }
 
     /**
