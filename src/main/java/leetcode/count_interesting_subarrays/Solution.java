@@ -3,10 +3,18 @@ package leetcode.count_interesting_subarrays;
 import java.util.*;
 
 /**
- * Solution for the Count Interesting Subarrays problem.
+ * Solution for LeetCode problem #2845. Count of Interesting Subarrays.
+ * <p>
+ * Given an integer array nums, an integer modulo, and an integer k,
+ * your task is to find the count of subarrays that are interesting.
+ * <p>
+ * A subarray nums[l...r] is interesting if:
+ * <p>
+ * Let cnt be the number of indices i in the range [l, r] such that nums[i] % modulo == k. Then, cnt % modulo == k.
+ * <p>
+ * Problem Link: <a href="https://leetcode.com/problems/count-of-interesting-subarrays/">LeetCode 2845</a>
  */
 public class Solution {
-
     public static void main(String[] args) {
         testCase(List.of(3, 2, 4), 2, 1, 3);
         testCase(List.of(3, 1, 9, 6), 3, 0, 2);
@@ -48,7 +56,6 @@ public class Solution {
     }
 
     private static void testCase(List<Integer> nums, int modulo, int k, long expected) {
-
         long result = countInterestingSubarrays(nums, modulo, k);
         String status = result == expected ? "✓ PASS" : "✗ FAIL";
 
