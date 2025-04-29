@@ -47,9 +47,9 @@ public class Solution {
 
         long result = 0;
         int left = 0;
-        int maxCount = 0;
+        int maxCount = 0;   // Space complexity: O(1)
 
-        for (int right = 0; right < nums.length; right++) {
+        for (int right = 0; right < nums.length; right++) {     // Time complexity: O(n)
             if (nums[right] == max) {
                 maxCount++;
             }
