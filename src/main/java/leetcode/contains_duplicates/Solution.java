@@ -2,7 +2,6 @@ package leetcode.contains_duplicates;
 
 import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Solution for LeetCode problem #217. Contains Duplicate.
